@@ -1,2 +1,2 @@
 rootProject.name = 'spring-cloud-contract-examples'
-include 'account-service'
+include 'account-verifier'
