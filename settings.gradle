@@ -1,3 +1,2 @@
-rootProject.name = 'spring-cloud-contract-blog'
+rootProject.name = 'spring-cloud-contract-examples'
 include 'account-service'
-include 'subscription-service'
