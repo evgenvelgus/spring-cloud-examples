@@ -4,14 +4,15 @@ Contract.make {
 
     request {
         method 'GET'
-        url value(consumer('https://graph.facebook.com/act_359773042'), producer('https://graph.facebook.com/act_359773042'))
+        url '/account/359773042'
     }
 
     response {
         status 200
         body([
-                account_id: '359773042',
-                id: 'act_359773042'
+                id: 'act_359773042',
+                accountId: '0',
+                accountStatus: '0'
         ])
         headers {
             header('Content-Type': value(
